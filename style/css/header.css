@@ -159,6 +159,21 @@ span:after {
     height: 50vh;
   }
 }
+@media screen and (max-width: 414px) {
+  .nav.menu-active {
+    height: 45vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nav.menu-active {
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav.menu-active {
+    height: 55vh;
+  }
+}
 .conteiner-main {
   background: url(./../../img/leaf.png) no-repeat left center/12.5%;
   background-size: 120px;
@@ -250,6 +265,12 @@ span:after {
 @media screen and (max-width: 576px) {
   .button-circle {
     margin-left: 0px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .button-circle {
+    display: block;
+    margin-top: 15px;
   }
 }
 @media screen and (max-width: 320px) {
